@@ -1,0 +1,54 @@
+*{
+    color:black;
+}
+
+h1{
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    text-align: center;
+    font-size: 50px;
+    background-color:rgb(247, 191, 71);
+    border: 5px;
+    border-style:ridge;
+    border-radius:100px;
+    border-color:black;
+}
+
+body{
+    background-color:silver;
+}
+
+div{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    display:inline-box;
+    margin: 0 10px;
+    position: absolute;
+}
+
+
+.eggparm, .steak, .tunacass{
+    text-align:center;
+    padding:20px;
+    height:320px;
+    width:450px;
+    border-color:black;
+    border-style:ridge;
+    border-radius:20px 50px;
+    
+    
+}
+
+.eggparm{
+    left:100px;
+
+}
+
+.steak{
+    left:700px;
+    
+}
+
+.tunacass{
+    right:100px;
+   
+}
