@@ -34,8 +34,7 @@ div{
     border-color:black;
     border-style:ridge;
     border-radius:20px 50px;
-    
-    
+    background-color: rgb(247, 191, 71);
 }
 
 .eggparm{
