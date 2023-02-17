@@ -5,13 +5,16 @@
     <head>
         <meta charset="UTF-8">
         <title>Eggplant Parmesan</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <div class="out">
+        <div class="outsideborder">
         <h1>Eggplant Parmesan</h1>
-        <img src="./eggplant-parmesan.png" alt="slice of eggplant parmesan">
+        <img id="eggparmpic" src="./eggplant-parmesan.png" alt="slice of eggplant parmesan">
     
-        <h2>Description</h2>
+        <h2 class="contenthead">Description</h2>
         <p>
             This easy Eggplant Parmesan recipe has layers of crispy, breaded eggplant 
             slices that have been baked, instead of fried. The combination of crunchy 
@@ -26,16 +29,42 @@
         </p>
 
         <br>
-        <h2>Nutritional Facts<sub><small>(per serving)</small></sub></h2>
-        <div>Calories: 487</div>
-        <div>Fat: 16g</div>
-        <div>Carbs: 62g</div>
-        <div>Protein: 24g</div>
-        <div>Servings: 10</div>
+        <h2 class="contenthead">Nutritional Facts<sub><small>(per serving)</small></sub></h2>
+        <ul class="facts">
+            <li>Calories</li>
+            <li>Total Fat</li>
+            <li>Carbohydrates</li>
+            <li>Protein</li>
+            <li>Fiber</li>
+        </ul>
+            
+        <ul class="info">
+            <li>487</li>
+            <li>16g</li>
+            <li>62g</li>
+            <li>24g</li>
+            <li>10g</li>
+        </ul>
+
+        <ul class="facts">
+            <li>Total Sugar</li>
+            <li>Calcium</li>
+            <li>Iron</li>
+            <li>Potassium</li>
+            <li>Sodium</li>
+        </ul>
+
+        <ul class="info">
+            <li>20g</li>
+            <li>512g</li>
+            <li>4mg</li>
+            <li>815g</li>
+            <li>1663mg</li>
+        </ul>
 
         <br>
-        <h2>Ingredients</h2>
-        <ul>
+        <h2 class="contenthead">Ingredients</h2>
+        <ul class="ingrecontent">
             <li>3 Large eggplants, peeled and thinly sliced</li>
             <li>2 Large eggs, beaten</li>
             <li>4 Cups Italian seasoned bread crumbs</li>
@@ -46,9 +75,9 @@
         </ul>
 
         <br>
-        <h2>Directions</h2>
-        <ol>
-            <li>Preheat the oven to 350 degrees F(175 degrees C).</li>
+        <h2 class="contenthead">Directions</h2>
+        <ol class="content">
+            <li>Preheat the oven to 350 degrees F (175 degrees C).</li>
             <li>Dip eggplant slices in beaten egg, then in bread crumbs to coat. Place in single layer on a baking sheet.</li>
             <li>Bake in the preheated oven for 5 minutes. Flip and bake for 5 more minutes.</li>
             <li>Spread spaghetti sauce to cover the bottom of the baking dish.</li>
@@ -59,6 +88,8 @@
         </ol>
 
         <br>
-        <a href="../index.html">Return to main page</a>
+        <a class="return" href="../index.html">Return to main page</a>
+        </div>
+        </div>
     </body>
 </html>
