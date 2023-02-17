@@ -4,13 +4,16 @@
     <head>
         <meta charset="UTF-8">
         <title>Tuna Noodle Casserole</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <div class="out">
+        <div class="outsideborder">
         <h1>Tuna Noodle Casserole</h1>
-        <img src="./tuna-casserole.png" alt="full serving of tuna casserole">
+        <img id="tunacass" src="./tuna-casserole.png" alt="full serving of tuna casserole">
 
-        <h2>Description</h2>
+        <h2 class="contenthead">Description</h2>
         <p>
             A Tuna Noodle Casserole recipe that provides a rich and creamy 
             but not overwhelmingly heavy taste. While, the crunch from the
@@ -18,16 +21,42 @@
         </p>
 
         <br>
-        <h2>Nutritional Facts<sub><small>(per serving)</small></sub></h2>
-        <div>Calories: 481</div>
-        <div>Fat: 20g</div>
-        <div>Carbs: 51g</div>
-        <div>Protein: 28g</div>
-        <div>Servings: 8</div>
+        <h2 class="contenthead">Nutritional Facts<sub><small>(per serving)</small></sub></h2>
+        <ul class="facts">
+            <li>Calories</li>
+            <li>Total Fat</li>
+            <li>Carbohydrates</li>
+            <li>Protein</li>
+            <li>Fiber</li>
+        </ul>
+
+        <ul class="info">
+            <li>481</li>
+            <li>20g</li>
+            <li>51g</li>
+            <li>28g</li>
+            <li>3g</li>
+        </ul>
+
+        <ul class="facts">
+            <li>Total Sugar</li>
+            <li>Calcium</li>
+            <li>Iron</li>
+            <li>Potassium</li>
+            <li>Sodium</li>
+        </ul>
+
+        <ul class="info">
+            <li>6g</li>
+            <li>256mg</li>
+            <li>3mg</li>
+            <li>466mg</li>
+            <li>1481mg</li>
+        </ul>
 
         <br>
-        <h2>Ingredients</h2>
-        <ul>
+        <h2 class="contenthead">Ingredients</h2>
+        <ul class="ingrecontent">
             <li>1 (12ounce) Package egg noodles</li>
             <li>4-1/4 Teaspoons kosher salt, divided</li>
             <li>4 Tablespoons salted butter, divided</li>
@@ -49,8 +78,8 @@
         </ul>
     
         <br>
-        <h2>Directions</h2>
-        <ol>
+        <h2 class="contenthead">Directions</h2>
+        <ol class="content">
             <li>Preheat oven to 375 degrees F (190 degrees C). Grease a 9x13-in baking dish.</li>
             <li>Bring a large pot of water to a boil. Add egg noodles and 3 teaspoons 
                 salt to the boiling water; cook until tender yet firm, about 6 min.</li> 
@@ -68,8 +97,9 @@
             <li>Bake in the preheated oven until golden and bubbly, 25-30 minutes. Sprinkle with parsley and serve.</li>    
         
         </ol>
-
     <br>    
-    <a href="../index.html">Return to main page</a>
+    <a class="return" href="../index.html">Return to main page</a>
+    </div>
+    </div>
     </body>
 </html>
