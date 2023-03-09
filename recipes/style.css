@@ -1,4 +1,4 @@
-h1, body, .outsideborder, .contenthead, #eggparmpic, #steakpic{
+h1, body, .outsideborder, .contenthead, img{
     border-color:silver;
     color:black;
     display:block;              /*display and margin to center*/
@@ -28,10 +28,15 @@ body{
     padding:50px;
 }
 
-#eggparmpic, #steakpic{
+#eggparmpic, #steakpic, #tunacass{
     border: 5px solid;
     border-radius: 30px 100px;
     height:300px;
+    width:auto;
+}
+
+#steakpic{
+    height:400px;
     width:auto;
 }
 
